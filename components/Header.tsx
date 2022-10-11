@@ -9,7 +9,10 @@ export default function Header() {
               DabThemes
             </h2>
           </a>
-          <div className='items-center gap-6 hidden md:block'>
+          <div className='items-center gap-6 hidden md:flex'>
+            <a href='/about' className='text-zinc-800 dark:text-zinc-200 hover:text-zinc-900 dark:hover:text-zinc-100 transition duration-200'>
+              About
+            </a>
             <a href='https://dabaz.vercel.app/contact' className='text-zinc-800 dark:text-zinc-200 hover:text-zinc-900 dark:hover:text-zinc-100 transition duration-200'>
               Contact
             </a>
