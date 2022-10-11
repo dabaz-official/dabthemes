@@ -16,7 +16,7 @@ const About: NextPage = () => {
 
       <main>
         <Masthead />
-        <section className='px-8 mx-auto max-w-7xl'>
+        <section className='px-8 mx-auto max-w-7xl my-12'>
           <h1 className='text-2xl font-semibold text-blue-600 dark:text-blue-400'>
             Introduction
           </h1>
