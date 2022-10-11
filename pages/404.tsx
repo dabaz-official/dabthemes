@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Masthead from '../components/Masthead'
 
-const About: NextPage = () => {
+export default function error() {
   return (
     <div>
       <Head>
@@ -84,5 +84,3 @@ const About: NextPage = () => {
     </div>
   )
 }
-
-export default About
